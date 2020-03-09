@@ -32,14 +32,14 @@ public class App {
 
         System.out.println(studentSet);
 
-        map.put("Bathi Ntshinga", "Bathi01");
-        map.put("Fabian Botha", "password2020");
-        map.put("Ncebakazi Dingwayo", "ncebsy1985");
-        map.put("Sonwabo Glen", "summer@2");
+        map.put("BathiNtshinga" , "Bathi01");
+        map.put("FabianBotha" , "password2020");
+        map.put("NcebakaziDingwayo" , "ncebsy1985");
+        map.put("SonwaboGlen" , "summer@2");
 
         System.out.println(map);
 
+        studentList.add(s1);
+        System.out.println(studentList);
     }
 }
-
-
