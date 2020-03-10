@@ -13,15 +13,15 @@ public class AppTest {
     @Test
     public void testStudentName(){
         Student s1 = new Student();
-        s1.name = ("Bathi Ntshinga");
+        s1.name = "Bathi Ntshinga";
         Student s2 = s1;
         Assert.assertEquals(s1, s2);
         Assert.assertSame(s1,s2);
 
         Student s3 = new Student();
-        s3.name = ("Fabian Botha");
+        s3.name = "Fabian Botha";
         Assert.assertEquals(s1,s3);
-        Assert.assertSame(s1,s2);
+        Assert.assertSame(s1,s3);
     }
 
 
