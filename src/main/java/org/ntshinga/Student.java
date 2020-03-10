@@ -1,7 +1,8 @@
 package org.ntshinga;
 
 public class Student {
-    private String name;
+    public String name;
+    public String studentID;
 
     public Student() {
 
@@ -18,6 +19,13 @@ public class Student {
     public Student(String name){
         super();
         this.name = name;
+    }
+    public String getStudentID(){
+        return studentID;
+    }
+
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
     }
 
     @Override
