@@ -5,10 +5,6 @@ public class Student {
     public String studentID;
     public int id;
 
-    public Student() {
-
-    }
-
     public String getName(){
         return name;
     }
