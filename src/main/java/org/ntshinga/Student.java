@@ -3,6 +3,7 @@ package org.ntshinga;
 public class Student {
     public String name;
     public String studentID;
+    public int id;
 
     public Student() {
 
@@ -16,8 +17,8 @@ public class Student {
         this.name = name;
     }
 
-    public Student(String name){
-        super();
+    public Student(int id, String name){
+        this.id=id;
         this.name = name;
     }
     public String getStudentID(){
