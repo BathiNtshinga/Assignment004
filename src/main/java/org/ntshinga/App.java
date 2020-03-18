@@ -2,6 +2,7 @@ package org.ntshinga;
 import java.util.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -29,7 +30,7 @@ public class App {
         System.out.println(studentList);
         System.out.println();
 
-        System.out.print("Printing Sort data structure");
+        System.out.print("Printing Collection Sort data structure");
         //Collections.sort(studentList);
         System.out.println(studentList);
         System.out.println();
@@ -45,16 +46,16 @@ public class App {
         System.out.println();
 
         //create Map and populate with objects from List data structure student Set
-        HashMap<String, String> map = new HashMap<String, String>();
-        map.put("BathiNtshinga" , "Bathi01");
-        map.put("FabianBotha" , "password2020");
-        map.put("NcebakaziDingwayo" , "ncebsy1985");
-        map.put("SonwaboGlen" , "summer@2");
+        HashMap<String, String> studentMap = new HashMap<>();
+
+        studentMap.put("BathiNtshinga" , "Bathi01");
+        studentMap.put("FabianBotha" , "password2020");
+        studentMap.put("NcebakaziDingwayo" , "ncebsy1985");
+        studentMap.put("SonwaboGlen" , "summer@2");
+
         System.out.print("Printing Map data structure");
-        System.out.println(map);
+        System.out.println(studentMap);
         System.out.println();
 
-       /* studentList.add(s1);
-        System.out.println(studentList);*/
     }
 }
