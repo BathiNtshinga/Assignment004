@@ -1,12 +1,10 @@
 package org.ntshinga;
 import java.util.*;
-import java.util.Arrays;
-import java.util.Set.*;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.List.*;
+import java.util.Arrays;
 import java.util.Collections;
 
-import static java.util.Collections.*;
 
 /**
  * ArrayList, HashMap and HashSet
